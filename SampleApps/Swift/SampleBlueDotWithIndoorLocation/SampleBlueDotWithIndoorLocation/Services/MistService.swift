@@ -33,8 +33,8 @@ class RealMistService: NSObject, MistService {
     }
 
     init(orgId: String, token: String) {
-        //self.sdkConfig = Mist.Configuration.init(orgId: orgId, sdkToken: token, logLevel: .verbose, enableLog: false)
-        self.sdkConfig = .default(orgId: orgId, sdkToken: token)
+        self.sdkConfig = Mist.Configuration.init(orgId: orgId, sdkToken: token, logLevel: .verbose, enableLog: true)
+        //self.sdkConfig = .default(orgId: orgId, sdkToken: token)
     }
     
     func start() {

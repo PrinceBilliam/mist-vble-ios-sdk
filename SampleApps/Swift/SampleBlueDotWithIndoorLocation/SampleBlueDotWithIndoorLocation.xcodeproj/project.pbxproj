@@ -400,13 +400,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S6W43QBW7N;
+				DEVELOPMENT_TEAM = EYBGPJ3DV5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleBlueDotWithIndoorLocation/Resources/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Access required to scan near by Mist AP Beacon";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Requires motion";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -417,7 +418,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mist.SampleBlueDotWithIndoorLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotWithIndoorLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -432,13 +433,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S6W43QBW7N;
+				DEVELOPMENT_TEAM = EYBGPJ3DV5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleBlueDotWithIndoorLocation/Resources/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Access required to scan near by Mist AP Beacon";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Requires motion";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -449,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mist.SampleBlueDotWithIndoorLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotWithIndoorLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
