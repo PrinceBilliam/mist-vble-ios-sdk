@@ -43,7 +43,7 @@ class RealWakeupService: NSObject {
     
     private func startMonitoringBeaconRegion() {
         guard let orgUUID =  UUID(uuidString: orgId) else {
-            debugPrint(">> Please enter a valid org_id")
+            appLog(">> Please enter a valid org_id")
             return
         }
         
@@ -76,7 +76,7 @@ class RealWakeupService: NSObject {
             let beaconRegion = CLBeaconRegion.create(with: beaconName, uuid: beaconUUID)
             locationManager.startMonitoring(for: beaconRegion)
             
-            debugPrint(">> Start Monitoring Beacon = \(beaconRegion.identifier.description), proximityUUID = \(beaconRegion.uuid.uuidString), major = \(beaconRegion.major?.stringValue ?? "") minor = \(beaconRegion.minor?.stringValue ?? "")")
+            appLog(">> Start Monitoring Beacon = \(beaconRegion.identifier.description), proximityUUID = \(beaconRegion.uuid.uuidString), major = \(beaconRegion.major?.stringValue ?? "") minor = \(beaconRegion.minor?.stringValue ?? "")")
         }
         
         isWakeUpRuning = true
@@ -89,7 +89,7 @@ class RealWakeupService: NSObject {
             
             isWakeUpRuning = false
             
-            debugPrint(">> Stop Monitoring Beacon = \(beaconRegion.identifier.description), proximityUUID = \(beaconRegion.uuid.uuidString), major = \(beaconRegion.major?.stringValue ?? "") minor = \(beaconRegion.minor?.stringValue ?? "")")
+            appLog(">> Stop Monitoring Beacon = \(beaconRegion.identifier.description), proximityUUID = \(beaconRegion.uuid.uuidString), major = \(beaconRegion.major?.stringValue ?? "") minor = \(beaconRegion.minor?.stringValue ?? "")")
         }
     }
 }

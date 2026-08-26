@@ -79,7 +79,7 @@ extension ViewModel: ViewModelMistServiceDelegate {
     
     func startMistService() {
         guard !MistSDK.SDK.token.isEmpty else {
-            debugPrint("Token is missing !!!")
+            appLog("Token is missing !!!")
             return
         }
         mistService?.start()
@@ -123,7 +123,7 @@ extension ViewModel: MistServiceDelegate {
 extension ViewModel: WakeUpServiceDelegate {
     
     func didEnterRegion(region: String) {
-        debugPrint(">>> didEnterRegion Beacon = \(region)")
+        appLog(">>> didEnterRegion Beacon = \(region)")
         
         let payload = NotificationData(title: "Hello!!!", subtitle: region, body: "Welcome!! You have enter in the Beacon range")
         Notification.schedule(after: 1.0, payload: payload)
@@ -139,6 +139,6 @@ extension ViewModel: WakeUpServiceDelegate {
     }
     
     func didExitRegion(region: String) {
-        debugPrint(">>> didExitRegion Beacon = \(region)")
+        appLog(">>> didExitRegion Beacon = \(region)")
     }
 }

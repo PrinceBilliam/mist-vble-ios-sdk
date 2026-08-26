@@ -25,6 +25,27 @@
 		24C018C02983E74C0073A891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C018BF2983E74C0073A891 /* Assets.xcassets */; };
 		24C018C32983E74C0073A891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C018C12983E74C0073A891 /* LaunchScreen.storyboard */; };
 		A4FABADF2DA4AB610065B3E9 /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4FABADE2DA4AB610065B3E9 /* MistSDK */; };
+		B1LM000129D0000000000001 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1LM000129D0000000000000 /* LogManager.swift */; };
+		CD416B7E303F8BFB0048604F /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1LM000129D0000000000000 /* LogManager.swift */; };
+		CD416B7F303F8BFB0048604F /* HUDProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF466F29C3481F00408903 /* HUDProgress.swift */; };
+		CD416B80303F8BFB0048604F /* WakeupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467D29C34A5300408903 /* WakeupService.swift */; };
+		CD416B81303F8BFB0048604F /* BeaconRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467729C3499400408903 /* BeaconRegion.swift */; };
+		CD416B82303F8BFB0048604F /* MapDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467F29C34B0800408903 /* MapDownloader.swift */; };
+		CD416B83303F8BFB0048604F /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF468429C480FB00408903 /* Scale.swift */; };
+		CD416B84303F8BFB0048604F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018BA2983E74B0073A891 /* ViewController.swift */; };
+		CD416B85303F8BFB0048604F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467929C34A0000408903 /* String.swift */; };
+		CD416B86303F8BFB0048604F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF468129C34BA100408903 /* ViewModel.swift */; };
+		CD416B87303F8BFB0048604F /* MistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467B29C34A2300408903 /* MistService.swift */; };
+		CD416B88303F8BFB0048604F /* CGPoint+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF466D29C347C000408903 /* CGPoint+Extention.swift */; };
+		CD416B89303F8BFB0048604F /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467529C3497100408903 /* Notification.swift */; };
+		CD416B8A303F8BFB0048604F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018B62983E74B0073A891 /* AppDelegate.swift */; };
+		CD416B8B303F8BFB0048604F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018B82983E74B0073A891 /* SceneDelegate.swift */; };
+		CD416B8C303F8BFB0048604F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF466B29C347AD00408903 /* Constants.swift */; };
+		CD416B8E303F8BFB0048604F /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		CD416B90303F8BFB0048604F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C018C12983E74C0073A891 /* LaunchScreen.storyboard */; };
+		CD416B91303F8BFB0048604F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C018BF2983E74C0073A891 /* Assets.xcassets */; };
+		CD416B92303F8BFB0048604F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C018BC2983E74B0073A891 /* Main.storyboard */; };
+		CD416B9A303F8C2D0048604F /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CD416B99303F8C2D0048604F /* MistSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +60,7 @@
 		24BF467F29C34B0800408903 /* MapDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDownloader.swift; sourceTree = "<group>"; };
 		24BF468129C34BA100408903 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		24BF468429C480FB00408903 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
-		24C018B32983E74B0073A891 /* SampleBlueDotWithIndoorLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleBlueDotWithIndoorLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C018B32983E74B0073A891 /* BBWithIL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBWithIL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C018B62983E74B0073A891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24C018B82983E74B0073A891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		24C018BA2983E74B0073A891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,9 @@
 		24C018BF2983E74C0073A891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24C018C22983E74C0073A891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24C018C42983E74C0073A891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1LM000129D0000000000000 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		CD416B96303F8BFB0048604F /* LBWithIL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBWithIL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD416B97303F8BFB0048604F /* BBWithIL copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BBWithIL copy-Info.plist"; path = "/Users/C223253/GitHub/mist-vble-ios-sdk/SampleApps/Swift/SampleBlueDotWithIndoorLocation/BBWithIL copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +79,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4FABADF2DA4AB610065B3E9 /* MistSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD416B8D303F8BFB0048604F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD416B9A303F8C2D0048604F /* MistSDK in Frameworks */,
+				CD416B8E303F8BFB0048604F /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +147,7 @@
 				24BF466B29C347AD00408903 /* Constants.swift */,
 				24BF466D29C347C000408903 /* CGPoint+Extention.swift */,
 				24BF466F29C3481F00408903 /* HUDProgress.swift */,
+				B1LM000129D0000000000000 /* LogManager.swift */,
 				24BF467529C3497100408903 /* Notification.swift */,
 				24BF467729C3499400408903 /* BeaconRegion.swift */,
 				24BF467929C34A0000408903 /* String.swift */,
@@ -135,13 +169,16 @@
 				24C018B52983E74B0073A891 /* SampleBlueDotWithIndoorLocation */,
 				24C018B42983E74B0073A891 /* Products */,
 				5F862A9CE13C9B4491A75D68 /* Pods */,
+				CD416B97303F8BFB0048604F /* BBWithIL copy-Info.plist */,
+				CD416B98303F8C2D0048604F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		24C018B42983E74B0073A891 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24C018B32983E74B0073A891 /* SampleBlueDotWithIndoorLocation.app */,
+				24C018B32983E74B0073A891 /* BBWithIL.app */,
+				CD416B96303F8BFB0048604F /* LBWithIL.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,12 +203,19 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CD416B98303F8C2D0048604F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24C018B22983E74B0073A891 /* SampleBlueDotWithIndoorLocation */ = {
+		24C018B22983E74B0073A891 /* BBWithIL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24C018C72983E74C0073A891 /* Build configuration list for PBXNativeTarget "SampleBlueDotWithIndoorLocation" */;
+			buildConfigurationList = 24C018C72983E74C0073A891 /* Build configuration list for PBXNativeTarget "BBWithIL" */;
 			buildPhases = (
 				24C018AF2983E74B0073A891 /* Sources */,
 				24C018B02983E74B0073A891 /* Frameworks */,
@@ -181,9 +225,26 @@
 			);
 			dependencies = (
 			);
-			name = SampleBlueDotWithIndoorLocation;
+			name = BBWithIL;
 			productName = SampleBlueDotWithIndoorLocation;
-			productReference = 24C018B32983E74B0073A891 /* SampleBlueDotWithIndoorLocation.app */;
+			productReference = 24C018B32983E74B0073A891 /* BBWithIL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD416B7C303F8BFB0048604F /* LBWithIL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD416B93303F8BFB0048604F /* Build configuration list for PBXNativeTarget "LBWithIL" */;
+			buildPhases = (
+				CD416B7D303F8BFB0048604F /* Sources */,
+				CD416B8D303F8BFB0048604F /* Frameworks */,
+				CD416B8F303F8BFB0048604F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBWithIL;
+			productName = SampleBlueDotWithIndoorLocation;
+			productReference = CD416B96303F8BFB0048604F /* LBWithIL.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +278,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24C018B22983E74B0073A891 /* SampleBlueDotWithIndoorLocation */,
+				24C018B22983E74B0073A891 /* BBWithIL */,
+				CD416B7C303F8BFB0048604F /* LBWithIL */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +295,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD416B8F303F8BFB0048604F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD416B90303F8BFB0048604F /* LaunchScreen.storyboard in Resources */,
+				CD416B91303F8BFB0048604F /* Assets.xcassets in Resources */,
+				CD416B92303F8BFB0048604F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -240,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1LM000129D0000000000001 /* LogManager.swift in Sources */,
 				24BF467029C3481F00408903 /* HUDProgress.swift in Sources */,
 				24BF467E29C34A5300408903 /* WakeupService.swift in Sources */,
 				24BF467829C3499400408903 /* BeaconRegion.swift in Sources */,
@@ -254,6 +327,28 @@
 				24C018B72983E74B0073A891 /* AppDelegate.swift in Sources */,
 				24C018B92983E74B0073A891 /* SceneDelegate.swift in Sources */,
 				24BF466C29C347AD00408903 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD416B7D303F8BFB0048604F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD416B7E303F8BFB0048604F /* LogManager.swift in Sources */,
+				CD416B7F303F8BFB0048604F /* HUDProgress.swift in Sources */,
+				CD416B80303F8BFB0048604F /* WakeupService.swift in Sources */,
+				CD416B81303F8BFB0048604F /* BeaconRegion.swift in Sources */,
+				CD416B82303F8BFB0048604F /* MapDownloader.swift in Sources */,
+				CD416B83303F8BFB0048604F /* Scale.swift in Sources */,
+				CD416B84303F8BFB0048604F /* ViewController.swift in Sources */,
+				CD416B85303F8BFB0048604F /* String.swift in Sources */,
+				CD416B86303F8BFB0048604F /* ViewModel.swift in Sources */,
+				CD416B87303F8BFB0048604F /* MistService.swift in Sources */,
+				CD416B88303F8BFB0048604F /* CGPoint+Extention.swift in Sources */,
+				CD416B89303F8BFB0048604F /* Notification.swift in Sources */,
+				CD416B8A303F8BFB0048604F /* AppDelegate.swift in Sources */,
+				CD416B8B303F8BFB0048604F /* SceneDelegate.swift in Sources */,
+				CD416B8C303F8BFB0048604F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +491,7 @@
 		24C018C82983E74C0073A891 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconB;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -418,8 +513,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotWithIndoorLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotWithIndoorLocationB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = BILLY;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -429,7 +525,7 @@
 		24C018C92983E74C0073A891 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconB;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -451,8 +547,77 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotWithIndoorLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotWithIndoorLocationB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = BILLY;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD416B94303F8BFB0048604F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconL;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EYBGPJ3DV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BBWithIL copy-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Access required to scan near by Mist AP Beacon";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Requires motion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotWithIndoorLocationL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = LILLY;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD416B95303F8BFB0048604F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconL;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EYBGPJ3DV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BBWithIL copy-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Access required to scan near by Mist AP Beacon";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access required for App WakeUp Service to scan the Mist AP Beacons to run the Mist SDK";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Requires motion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotWithIndoorLocationL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = LILLY;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,11 +636,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24C018C72983E74C0073A891 /* Build configuration list for PBXNativeTarget "SampleBlueDotWithIndoorLocation" */ = {
+		24C018C72983E74C0073A891 /* Build configuration list for PBXNativeTarget "BBWithIL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24C018C82983E74C0073A891 /* Debug */,
 				24C018C92983E74C0073A891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD416B93303F8BFB0048604F /* Build configuration list for PBXNativeTarget "LBWithIL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD416B94303F8BFB0048604F /* Debug */,
+				CD416B95303F8BFB0048604F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -495,6 +669,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		A4FABADE2DA4AB610065B3E9 /* MistSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4FABADD2DA4AB610065B3E9 /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
+			productName = MistSDK;
+		};
+		CD416B99303F8C2D0048604F /* MistSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A4FABADD2DA4AB610065B3E9 /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
 			productName = MistSDK;

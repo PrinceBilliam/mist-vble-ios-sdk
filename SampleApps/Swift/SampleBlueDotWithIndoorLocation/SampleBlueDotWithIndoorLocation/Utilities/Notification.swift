@@ -21,7 +21,7 @@ extension Notification {
         UNUserNotificationCenter.current()
             .requestAuthorization(options: options) { _, error in
                 if let error = error {
-                    debugPrint("Error: \(error)")
+                    appLog("Error: \(error)")
                 }
             }
     }

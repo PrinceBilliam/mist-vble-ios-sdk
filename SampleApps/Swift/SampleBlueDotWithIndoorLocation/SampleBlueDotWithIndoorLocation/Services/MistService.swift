@@ -56,16 +56,16 @@ extension RealMistService: IndoorLocationDelegate {
             guard let url = map.url, let mapUrl = URL(string: url) else { return }
             currentMap = map
             delegate?.didUpdateMap(mapUrl)
-            debugPrint(">>> onMapUpdate \(map.name ?? "-")")
+            appLog(">>> onMapUpdate \(map.name ?? "-")")
             
         case .onRelativeLocationUpdate(let relativeLocation):
             guard let map = currentMap, let ppm = map.ppm else { return }
             let location = CGPoint(x: relativeLocation.x * ppm, y: relativeLocation.y * ppm)
-            debugPrint(">>> didUpdateRelativeLocation x = \(location.x) y = \(location.y) lat = \(relativeLocation.lat), lon = \(relativeLocation.lon)")
+            appLog(">>> didUpdateRelativeLocation x = \(location.x) y = \(location.y) lat = \(relativeLocation.lat), lon = \(relativeLocation.lon)")
             delegate?.didUpdateLocation(location)
             
         case .onError(let error):
-            debugPrint(">>> didErrorOccur = \(error.localizedDescription)")
+            appLog(">>> didErrorOccur = \(error.localizedDescription)")
             
         default:
             break

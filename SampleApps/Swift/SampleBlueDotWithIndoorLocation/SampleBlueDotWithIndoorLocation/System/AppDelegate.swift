@@ -75,6 +75,6 @@ extension AppDelegate {
         mistService.delegate = viewModel
         self.viewModel = viewModel
         viewModel.startMistService()
-        debugPrint(">>> App Launch Notification Mist Service Started ...")
+        appLog(">>> App Launch Notification Mist Service Started ...")
     }
 }

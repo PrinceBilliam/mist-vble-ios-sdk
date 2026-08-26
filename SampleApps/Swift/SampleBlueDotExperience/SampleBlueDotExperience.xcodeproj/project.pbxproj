@@ -21,6 +21,21 @@
 		24C018CD2983FE570073A891 /* MistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018CC2983FE570073A891 /* MistService.swift */; };
 		A4FABAE22DA4C0300065B3E9 /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4FABAE12DA4C0300065B3E9 /* MistSDK */; };
 		A4FABAE52DA4C7B50065B3E9 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FABAE42DA4C7B30065B3E9 /* Scale.swift */; };
+		CD416B2E303F2E3F0048604F /* CGPoint+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB574729935BB000AE5A0D /* CGPoint+Extention.swift */; };
+		CD416B2F303F2E3F0048604F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0185A2983E6F60073A891 /* ViewController.swift */; };
+		CD416B30303F2E3F0048604F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018562983E6F60073A891 /* AppDelegate.swift */; };
+		CD416B31303F2E3F0048604F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018CA2983FB5F0073A891 /* ViewModel.swift */; };
+		CD416B32303F2E3F0048604F /* MapDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24458D28298928BB00C34F41 /* MapDownloader.swift */; };
+		CD416B33303F2E3F0048604F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018582983E6F60073A891 /* SceneDelegate.swift */; };
+		CD416B34303F2E3F0048604F /* HUDProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248D8442299398740075B095 /* HUDProgress.swift */; };
+		CD416B35303F2E3F0048604F /* MistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018CC2983FE570073A891 /* MistService.swift */; };
+		CD416B36303F2E3F0048604F /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FABAE42DA4C7B30065B3E9 /* Scale.swift */; };
+		CD416B37303F2E3F0048604F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24458D202987CBB500C34F41 /* Constants.swift */; };
+		CD416B39303F2E3F0048604F /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		CD416B3B303F2E3F0048604F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C018612983E6F70073A891 /* LaunchScreen.storyboard */; };
+		CD416B3C303F2E3F0048604F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C0185F2983E6F70073A891 /* Assets.xcassets */; };
+		CD416B3D303F2E3F0048604F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C0185C2983E6F60073A891 /* Main.storyboard */; };
+		CD416B7B303F866A0048604F /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CD416B7A303F866A0048604F /* MistSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +44,7 @@
 		24458D28298928BB00C34F41 /* MapDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDownloader.swift; sourceTree = "<group>"; };
 		248D8442299398740075B095 /* HUDProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDProgress.swift; sourceTree = "<group>"; };
 		24AB574729935BB000AE5A0D /* CGPoint+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extention.swift"; sourceTree = "<group>"; };
-		24C018532983E6F60073A891 /* SampleBlueDotExperience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleBlueDotExperience.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C018532983E6F60073A891 /* BBlueDotE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBlueDotE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C018562983E6F60073A891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24C018582983E6F60073A891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		24C0185A2983E6F60073A891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +55,8 @@
 		24C018CA2983FB5F0073A891 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		24C018CC2983FE570073A891 /* MistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistService.swift; sourceTree = "<group>"; };
 		A4FABAE42DA4C7B30065B3E9 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		CD416B41303F2E3F0048604F /* LBlueDotE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBlueDotE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD416B42303F2E3F0048604F /* SampleBlueDotExperience copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SampleBlueDotExperience copy-Info.plist"; path = "/Users/C223253/GitHub/mist-vble-ios-sdk/SampleApps/Swift/SampleBlueDotExperience/SampleBlueDotExperience copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +65,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4FABAE22DA4C0300065B3E9 /* MistSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD416B38303F2E3F0048604F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD416B7B303F866A0048604F /* MistSDK in Frameworks */,
+				CD416B39303F2E3F0048604F /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,13 +135,15 @@
 				24C018542983E6F60073A891 /* Products */,
 				C236D435F53C9C182E9D2D98 /* Pods */,
 				86F099731E1A46DFB788A9D6 /* Frameworks */,
+				CD416B42303F2E3F0048604F /* SampleBlueDotExperience copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		24C018542983E6F60073A891 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24C018532983E6F60073A891 /* SampleBlueDotExperience.app */,
+				24C018532983E6F60073A891 /* BBlueDotE.app */,
+				CD416B41303F2E3F0048604F /* LBlueDotE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,9 +187,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24C018522983E6F60073A891 /* SampleBlueDotExperience */ = {
+		24C018522983E6F60073A891 /* BBlueDotE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24C018672983E6F70073A891 /* Build configuration list for PBXNativeTarget "SampleBlueDotExperience" */;
+			buildConfigurationList = 24C018672983E6F70073A891 /* Build configuration list for PBXNativeTarget "BBlueDotE" */;
 			buildPhases = (
 				24C0184F2983E6F60073A891 /* Sources */,
 				24C018502983E6F60073A891 /* Frameworks */,
@@ -171,9 +199,26 @@
 			);
 			dependencies = (
 			);
-			name = SampleBlueDotExperience;
+			name = BBlueDotE;
 			productName = SampleBlueDotExperience;
-			productReference = 24C018532983E6F60073A891 /* SampleBlueDotExperience.app */;
+			productReference = 24C018532983E6F60073A891 /* BBlueDotE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD416B2C303F2E3F0048604F /* LBlueDotE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD416B3E303F2E3F0048604F /* Build configuration list for PBXNativeTarget "LBlueDotE" */;
+			buildPhases = (
+				CD416B2D303F2E3F0048604F /* Sources */,
+				CD416B38303F2E3F0048604F /* Frameworks */,
+				CD416B3A303F2E3F0048604F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBlueDotE;
+			productName = SampleBlueDotExperience;
+			productReference = CD416B41303F2E3F0048604F /* LBlueDotE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +252,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24C018522983E6F60073A891 /* SampleBlueDotExperience */,
+				24C018522983E6F60073A891 /* BBlueDotE */,
+				CD416B2C303F2E3F0048604F /* LBlueDotE */,
 			);
 		};
 /* End PBXProject section */
@@ -220,6 +266,16 @@
 				24C018632983E6F70073A891 /* LaunchScreen.storyboard in Resources */,
 				24C018602983E6F70073A891 /* Assets.xcassets in Resources */,
 				24C0185E2983E6F60073A891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD416B3A303F2E3F0048604F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD416B3B303F2E3F0048604F /* LaunchScreen.storyboard in Resources */,
+				CD416B3C303F2E3F0048604F /* Assets.xcassets in Resources */,
+				CD416B3D303F2E3F0048604F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +296,23 @@
 				24C018CD2983FE570073A891 /* MistService.swift in Sources */,
 				A4FABAE52DA4C7B50065B3E9 /* Scale.swift in Sources */,
 				24458D212987CBB500C34F41 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD416B2D303F2E3F0048604F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD416B2E303F2E3F0048604F /* CGPoint+Extention.swift in Sources */,
+				CD416B2F303F2E3F0048604F /* ViewController.swift in Sources */,
+				CD416B30303F2E3F0048604F /* AppDelegate.swift in Sources */,
+				CD416B31303F2E3F0048604F /* ViewModel.swift in Sources */,
+				CD416B32303F2E3F0048604F /* MapDownloader.swift in Sources */,
+				CD416B33303F2E3F0048604F /* SceneDelegate.swift in Sources */,
+				CD416B34303F2E3F0048604F /* HUDProgress.swift in Sources */,
+				CD416B35303F2E3F0048604F /* MistService.swift in Sources */,
+				CD416B36303F2E3F0048604F /* Scale.swift in Sources */,
+				CD416B37303F2E3F0048604F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,13 +455,14 @@
 		24C018682983E6F70073A891 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconB;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EYBGPJ3DV5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleBlueDotExperience/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BBlueDotE;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "requires bluetooth for better user experience";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "requires user’s location for better user experience";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "requires user’s location for better user experience";
@@ -406,8 +480,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotExperience;
+				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotExperienceB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = BILLY;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -417,13 +492,14 @@
 		24C018692983E6F70073A891 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconB;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EYBGPJ3DV5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleBlueDotExperience/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BBlueDotE;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "requires bluetooth for better user experience";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "requires user’s location for better user experience";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "requires user’s location for better user experience";
@@ -441,8 +517,83 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotExperience;
+				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotExperienceB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = BILLY;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD416B3F303F2E3F0048604F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconL;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EYBGPJ3DV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SampleBlueDotExperience copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = LBlueDotE;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "requires bluetooth for better user experience";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "requires user’s location for better user experience";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "requires user’s location for better user experience";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "requires user’s location for better user experience";
+				INFOPLIST_KEY_NSMotionUsageDescription = "requires motion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotExperienceL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = LILLY;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD416B40303F2E3F0048604F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconL;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EYBGPJ3DV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SampleBlueDotExperience copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = LBlueDotE;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "requires bluetooth for better user experience";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "requires user’s location for better user experience";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "requires user’s location for better user experience";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "requires user’s location for better user experience";
+				INFOPLIST_KEY_NSMotionUsageDescription = "requires motion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.princebilliam.SampleBlueDotExperienceL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = LILLY;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,11 +612,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24C018672983E6F70073A891 /* Build configuration list for PBXNativeTarget "SampleBlueDotExperience" */ = {
+		24C018672983E6F70073A891 /* Build configuration list for PBXNativeTarget "BBlueDotE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24C018682983E6F70073A891 /* Debug */,
 				24C018692983E6F70073A891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD416B3E303F2E3F0048604F /* Build configuration list for PBXNativeTarget "LBlueDotE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD416B3F303F2E3F0048604F /* Debug */,
+				CD416B40303F2E3F0048604F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -485,6 +645,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		A4FABAE12DA4C0300065B3E9 /* MistSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4FABAE02DA4C0300065B3E9 /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
+			productName = MistSDK;
+		};
+		CD416B7A303F866A0048604F /* MistSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A4FABAE02DA4C0300065B3E9 /* XCRemoteSwiftPackageReference "mist-vble-ios-sdk" */;
 			productName = MistSDK;
