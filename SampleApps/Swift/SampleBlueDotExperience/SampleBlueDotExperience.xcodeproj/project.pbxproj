@@ -31,6 +31,10 @@
 		CD416B35303F2E3F0048604F /* MistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C018CC2983FE570073A891 /* MistService.swift */; };
 		CD416B36303F2E3F0048604F /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FABAE42DA4C7B30065B3E9 /* Scale.swift */; };
 		CD416B37303F2E3F0048604F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24458D202987CBB500C34F41 /* Constants.swift */; };
+		B2B2B2B2B2B2B2B2B2B20003 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B2B2B2B2B2B2B2B2B20001 /* LogManager.swift */; };
+		B2B2B2B2B2B2B2B2B2B20004 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B2B2B2B2B2B2B2B2B20001 /* LogManager.swift */; };
+		B2B2B2B2B2B2B2B2B2B20005 /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B2B2B2B2B2B2B2B2B20002 /* ConsoleView.swift */; };
+		B2B2B2B2B2B2B2B2B2B20006 /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B2B2B2B2B2B2B2B2B20002 /* ConsoleView.swift */; };
 		CD416B39303F2E3F0048604F /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		CD416B3B303F2E3F0048604F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C018612983E6F70073A891 /* LaunchScreen.storyboard */; };
 		CD416B3C303F2E3F0048604F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C0185F2983E6F70073A891 /* Assets.xcassets */; };
@@ -54,6 +58,8 @@
 		24C018642983E6F70073A891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		24C018CA2983FB5F0073A891 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		24C018CC2983FE570073A891 /* MistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistService.swift; sourceTree = "<group>"; };
+		B2B2B2B2B2B2B2B2B2B20001 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		B2B2B2B2B2B2B2B2B2B20002 /* ConsoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleView.swift; sourceTree = "<group>"; };
 		A4FABAE42DA4C7B30065B3E9 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
 		CD416B41303F2E3F0048604F /* LBlueDotE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBlueDotE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD416B42303F2E3F0048604F /* SampleBlueDotExperience copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SampleBlueDotExperience copy-Info.plist"; path = "/Users/C223253/GitHub/mist-vble-ios-sdk/SampleApps/Swift/SampleBlueDotExperience/SampleBlueDotExperience copy-Info.plist"; sourceTree = "<absolute>"; };
@@ -94,6 +100,7 @@
 			children = (
 				24C0185A2983E6F60073A891 /* ViewController.swift */,
 				24C018CA2983FB5F0073A891 /* ViewModel.swift */,
+				B2B2B2B2B2B2B2B2B2B20002 /* ConsoleView.swift */,
 			);
 			path = BlueDot;
 			sourceTree = "<group>";
@@ -113,6 +120,7 @@
 				24458D202987CBB500C34F41 /* Constants.swift */,
 				24AB574729935BB000AE5A0D /* CGPoint+Extention.swift */,
 				248D8442299398740075B095 /* HUDProgress.swift */,
+				B2B2B2B2B2B2B2B2B2B20001 /* LogManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -296,6 +304,8 @@
 				24C018CD2983FE570073A891 /* MistService.swift in Sources */,
 				A4FABAE52DA4C7B50065B3E9 /* Scale.swift in Sources */,
 				24458D212987CBB500C34F41 /* Constants.swift in Sources */,
+				B2B2B2B2B2B2B2B2B2B20003 /* LogManager.swift in Sources */,
+				B2B2B2B2B2B2B2B2B2B20005 /* ConsoleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +323,8 @@
 				CD416B35303F2E3F0048604F /* MistService.swift in Sources */,
 				CD416B36303F2E3F0048604F /* Scale.swift in Sources */,
 				CD416B37303F2E3F0048604F /* Constants.swift in Sources */,
+				B2B2B2B2B2B2B2B2B2B20004 /* LogManager.swift in Sources */,
+				B2B2B2B2B2B2B2B2B2B20006 /* ConsoleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

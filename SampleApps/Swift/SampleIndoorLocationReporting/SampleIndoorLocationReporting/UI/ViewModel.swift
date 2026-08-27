@@ -16,7 +16,7 @@ class ViewModel {
     
     func start() {
         guard !MistSDK.token.isEmpty else {
-            debugPrint("Kindly copy the token")
+            appLog("Kindly copy the token")
             return
         }
         service?.start()

@@ -26,13 +26,13 @@ class MapDownloader: Downloadable {
         let request = URLRequest(url: url)
         let dataTask = session.dataTask(with: request) { data, response, error in
             if let error = error {
-                debugPrint("Error: Unable to download map image with url \(url.absoluteString)")
+                appLog("Error: Unable to download map image with url \(url.absoluteString)")
                 onCompletion(nil, error)
                 return
             }
             
             guard let imageData = data else {
-                debugPrint("Error: Map image data is nil")
+                appLog("Error: Map image data is nil")
                 onCompletion(nil, ImageError.unknown)
                 return
             }

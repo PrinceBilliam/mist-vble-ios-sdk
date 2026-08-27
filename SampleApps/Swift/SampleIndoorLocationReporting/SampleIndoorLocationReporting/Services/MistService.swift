@@ -38,32 +38,32 @@ extension RealMistService: IndoorLocationDelegate {
         switch event {
             
         case .onReceivedClientInfo(let client):
-            debugPrint(">>> onReceivedClientInfo UUID => \(client.deviceId ?? "-")")
-            
+            appLog(">>> onReceivedClientInfo UUID => \(client.deviceId ?? "-")")
+
         case .onReceivedAllMaps(let maps):
-            debugPrint(">>> onReceivedAllMaps \(maps.count)")
-            
+            appLog(">>> onReceivedAllMaps \(maps.count)")
+
         case .onMapUpdate(let map):
-            debugPrint(">>> onMapUpdate \(map.name ?? "-")")
-            
+            appLog(">>> onMapUpdate \(map.name ?? "-")")
+
         case .onRelativeLocationUpdate(let relativeLocation):
-            debugPrint(">>> didUpdateRelativeLocation x = \(relativeLocation.x) y = \(relativeLocation.y) lat = \(relativeLocation.lat), lon = \(relativeLocation.lon)")
-            
+            appLog(">>> didUpdateRelativeLocation x = \(relativeLocation.x) y = \(relativeLocation.y) lat = \(relativeLocation.lat), lon = \(relativeLocation.lon)")
+
         // ZONES
         case .onEnterZone(let zone):
-            debugPrint(">>> didEnterZone \(zone.name!)")
+            appLog(">>> didEnterZone \(zone.name!)")
         case .onExitZone(let zone):
-            debugPrint(">>> didExitZone \(zone.name!)")
-            
+            appLog(">>> didExitZone \(zone.name!)")
+
         // VirtualBeacons
         case .onRangeVirtualBeacon(let vBeacon):
-            debugPrint(">>> didRangeVirtualBeacon \(vBeacon.name!)")
-            
+            appLog(">>> didRangeVirtualBeacon \(vBeacon.name!)")
+
         case .onUpdateVirtualBeaconList(let vBeacons):
-            debugPrint(">>> onUpdateVirtualBeaconList \(vBeacons.count)")
-                        
+            appLog(">>> onUpdateVirtualBeaconList \(vBeacons.count)")
+
         case .onError(let error):
-            debugPrint(">>> didErrorOccur = \(error.localizedDescription)")
+            appLog(">>> didErrorOccur = \(error.localizedDescription)")
             
         default:
             break

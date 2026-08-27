@@ -20,18 +20,20 @@ class ViewController: UIViewController {
     var viewModel: ViewModel?
     var scale: Scale?
     var isMapLoaded = false
-    
+    private let consoleView = ConsoleView()
+
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        
+
         configurator()
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+
         viewModel?.startMistService()
+        setupConsole()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -48,6 +50,17 @@ class ViewController: UIViewController {
 }
 
 extension ViewController {
+    private func setupConsole() {
+        consoleView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(consoleView)
+        NSLayoutConstraint.activate([
+            consoleView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            consoleView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            consoleView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            consoleView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.4)
+        ])
+    }
+
     private func configurator() {
         let mistService = RealMistService(orgId: MistSDK.orgId, token: MistSDK.token)
         let viewModel = ViewModel(mistService: mistService)
@@ -105,6 +118,8 @@ extension ViewController {
         let scaleY = floorMapView.bounds.height / image.size.height
         
         scale = Scale(x: scaleX, y: scaleY)
+
+        view.bringSubviewToFront(consoleView)
     }
 }
 
@@ -125,6 +140,6 @@ extension ViewController: ViewDelegate {
     
     func failed(with error: String?) {
         guard let error = error else { return }
-        debugPrint("Failed with error: \(error)")
+        appLog("Failed with error: \(error)")
     }
 }

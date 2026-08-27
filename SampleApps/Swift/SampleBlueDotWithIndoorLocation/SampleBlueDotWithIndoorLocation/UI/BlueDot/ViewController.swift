@@ -22,16 +22,7 @@ class ViewController: UIViewController {
         return dotView
     }()
 
-    private let logTextView: UITextView = {
-        let tv = UITextView()
-        tv.translatesAutoresizingMaskIntoConstraints = false
-        tv.isEditable = false
-        tv.backgroundColor = UIColor(red: 0.1, green: 0.1, blue: 0.1, alpha: 1.0)
-        tv.textColor = UIColor(red: 0.0, green: 0.9, blue: 0.4, alpha: 1.0)
-        tv.font = UIFont.monospacedSystemFont(ofSize: 11, weight: .regular)
-        tv.textContainerInset = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
-        return tv
-    }()
+    private let consoleView = ConsoleView()
 
     var viewModel: ViewModelDelegate?
 
@@ -50,11 +41,7 @@ class ViewController: UIViewController {
         wakeUpSwitch.isOn = viewModel?.isMistServiceRuning ?? false
         mistSdkSwitch.isOn = viewModel?.isMistServiceRuning ?? false
 
-        setupLogConsole()
-    }
-
-    deinit {
-        NotificationCenter.default.removeObserver(self)
+        setupConsole()
     }
 
     @IBAction func enableMistSDKService(_ sender: UISwitch) {
@@ -82,29 +69,15 @@ class ViewController: UIViewController {
         statusLabel.text = String(format: "BlueDot Location on Map X= %.1f, Y= %.1f", clientLocation.x, clientLocation.y)
     }
 
-    private func setupLogConsole() {
-        view.addSubview(logTextView)
+    private func setupConsole() {
+        consoleView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(consoleView)
         NSLayoutConstraint.activate([
-            logTextView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            logTextView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            logTextView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
-            logTextView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.4)
+            consoleView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            consoleView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            consoleView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            consoleView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.4)
         ])
-
-        // Load any existing logs
-        let existing = LogManager.shared.logs.joined(separator: "\n")
-        if !existing.isEmpty {
-            logTextView.text = existing + "\n"
-        }
-
-        NotificationCenter.default.addObserver(self, selector: #selector(handleNewLog(_:)), name: .newLogMessage, object: nil)
-    }
-
-    @objc private func handleNewLog(_ notification: Notification) {
-        guard let entry = notification.object as? String else { return }
-        logTextView.text = (logTextView.text ?? "") + entry + "\n"
-        let bottom = NSRange(location: logTextView.text.count - 1, length: 1)
-        logTextView.scrollRangeToVisible(bottom)
     }
 }
 
@@ -171,7 +144,7 @@ extension ViewController {
 
         scale = Scale(x: scaleX, y: scaleY)
 
-        view.bringSubviewToFront(logTextView)
+        view.bringSubviewToFront(consoleView)
     }
 }
 

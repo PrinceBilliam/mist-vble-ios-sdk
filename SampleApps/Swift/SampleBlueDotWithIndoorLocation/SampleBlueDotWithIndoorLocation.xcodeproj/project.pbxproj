@@ -27,6 +27,8 @@
 		A4FABADF2DA4AB610065B3E9 /* MistSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A4FABADE2DA4AB610065B3E9 /* MistSDK */; };
 		B1LM000129D0000000000001 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1LM000129D0000000000000 /* LogManager.swift */; };
 		CD416B7E303F8BFB0048604F /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1LM000129D0000000000000 /* LogManager.swift */; };
+		B1CV000129D0000000000001 /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CV000129D0000000000000 /* ConsoleView.swift */; };
+		CD416B7E303F8BFB0048604E /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CV000129D0000000000000 /* ConsoleView.swift */; };
 		CD416B7F303F8BFB0048604F /* HUDProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF466F29C3481F00408903 /* HUDProgress.swift */; };
 		CD416B80303F8BFB0048604F /* WakeupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467D29C34A5300408903 /* WakeupService.swift */; };
 		CD416B81303F8BFB0048604F /* BeaconRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF467729C3499400408903 /* BeaconRegion.swift */; };
@@ -69,6 +71,7 @@
 		24C018C22983E74C0073A891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24C018C42983E74C0073A891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1LM000129D0000000000000 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		B1CV000129D0000000000000 /* ConsoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleView.swift; sourceTree = "<group>"; };
 		CD416B96303F8BFB0048604F /* LBWithIL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBWithIL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD416B97303F8BFB0048604F /* BBWithIL copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BBWithIL copy-Info.plist"; path = "/Users/C223253/GitHub/mist-vble-ios-sdk/SampleApps/Swift/SampleBlueDotWithIndoorLocation/BBWithIL copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -116,6 +119,7 @@
 			children = (
 				24C018BA2983E74B0073A891 /* ViewController.swift */,
 				24BF468129C34BA100408903 /* ViewModel.swift */,
+				B1CV000129D0000000000000 /* ConsoleView.swift */,
 			);
 			path = BlueDot;
 			sourceTree = "<group>";
@@ -313,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1LM000129D0000000000001 /* LogManager.swift in Sources */,
+				B1CV000129D0000000000001 /* ConsoleView.swift in Sources */,
 				24BF467029C3481F00408903 /* HUDProgress.swift in Sources */,
 				24BF467E29C34A5300408903 /* WakeupService.swift in Sources */,
 				24BF467829C3499400408903 /* BeaconRegion.swift in Sources */,
@@ -335,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD416B7E303F8BFB0048604F /* LogManager.swift in Sources */,
+				CD416B7E303F8BFB0048604E /* ConsoleView.swift in Sources */,
 				CD416B7F303F8BFB0048604F /* HUDProgress.swift in Sources */,
 				CD416B80303F8BFB0048604F /* WakeupService.swift in Sources */,
 				CD416B81303F8BFB0048604F /* BeaconRegion.swift in Sources */,

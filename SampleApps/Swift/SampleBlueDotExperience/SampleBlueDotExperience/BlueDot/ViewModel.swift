@@ -46,7 +46,7 @@ extension ViewModel: ViewModelMistServiceDelegate {
     
     func startMistService() {
         guard !MistSDK.token.isEmpty else {
-            debugPrint("? Token is missing")
+            appLog("? Token is missing")
             return
         }
         mistService?.start()
