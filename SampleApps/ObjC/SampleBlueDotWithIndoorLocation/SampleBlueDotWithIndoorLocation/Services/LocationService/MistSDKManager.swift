@@ -21,7 +21,7 @@ public class MistSDKManager: NSObject {
     @objc public weak var delegate: MistSDKManagerDelegate?
 
     @objc public init(token: String, orgId: String) {
-        self.sdkConfig = .default(orgId: orgId, sdkToken: token)
+        self.sdkConfig = Mist.Configuration.init(orgId: orgId, sdkToken: token, logLevel: .verbose, enableLog: true)
     }
 
     @objc public func start() {
@@ -45,6 +45,7 @@ extension MistSDKManager: IndoorLocationDelegate {
         case .onRelativeLocationUpdate(let relativeLocation):
             guard let map = currentMap else { return }
             let location = CGPoint(x: relativeLocation.x * map.ppm, y: relativeLocation.y * map.ppm)
+            NSLog(">>> didUpdateRelativeLocation x = %f y = %f lat = %f lon = %f", location.x, location.y, relativeLocation.lat, relativeLocation.lon)
             delegate?.didUpdateLocation(location)
 
         case .onError(let error):

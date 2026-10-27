@@ -7,6 +7,6 @@
 
 @import Foundation;
 
-NSString *SDK_TOKEN = @"<SDK TOKEN HERE>";
+NSString *SDK_TOKEN = @"TOKEN";
 
-NSString *ORG_ID = @"<ORG ID HERE>";
+NSString *ORG_ID = @"ORGID";
